@@ -80,11 +80,10 @@ Here are steps:
 
 *	uncomment JSP code
 *	mvn test jetty:run, manual test
-*	Explain and copy WeatherPage.java
 *	Explain and copy WeatherTest.java
 *	mvn verify
-*	git add and commit
-*	git push and CI run and pass
+*	git add src
+*	git commit and git push and CI run and pass
 
 #Step 6
 
