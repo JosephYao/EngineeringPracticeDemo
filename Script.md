@@ -47,6 +47,7 @@ Here are steps:
 *	Explain and copy TestWeatherRetriever.java
 *	Make compile pass by adding empty WeatherRetriever class (creating the src/main/java folder). Run UT and fail.
 *	Copy code of WeatherRetriever and run UT and pass.
+*	mvn verify
 *	git add src
 *	git commit and git push and CI should pass
 
@@ -63,7 +64,9 @@ Here are steps:
 *	Explain and copy TestWeatherParser.java
 *	Make compile pass by adding empty WeatherParser and Weather class. Need to manually add missing methods. Run UT and fail.
 *	Copy code of WeatherParser and Weather and run UT and pass.
-*	git add and commit
+*	mvn verify
+*	git add src
+*	git commit and git push and CI should pass
 
 #Step 5
 
