@@ -47,7 +47,8 @@ Here are steps:
 *	Explain and copy TestWeatherRetriever.java
 *	Make compile pass by adding empty WeatherRetriever class (creating the src/main/java folder). Run UT and fail.
 *	Copy code of WeatherRetriever and run UT and pass.
-*	git add and commit
+*	git add src
+*	git commit and git push and CI should pass
 
 #Step 4
 
