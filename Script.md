@@ -90,7 +90,7 @@ Here are steps:
 Here is what we will add or update in step 6:
 
 *	i_can_get_wearing_advice.story
-*	TestWeather.java
+*	TestWearingAdvice.java
 *	Weather.java
 
 Here are steps:
@@ -99,6 +99,7 @@ Here are steps:
 *	mvn verify and BDD case fail
 *	TDD Weather.getWearingAdvice()
 *	update index.jsp to add wearing advice display
-*	mvn verify and pass
+*	mvn verify
+*	git add src
 *	git commit
 *	git push and CI run and pass
